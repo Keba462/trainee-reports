@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.urls import path
 
 from trainee_reports.views.home_view import HomeView
+from trainee_reports.views.listboard_view import ListBoardView
 
 app_name ='trainee_reports'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home_url', HomeView.as_view(), name='home_url'),
+    path('data_manager_listboard_url',ListBoardView.as_view(),name='data_manager_listboard_url')
 ]

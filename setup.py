@@ -17,7 +17,7 @@ setup(
     author_email='kmotlhabi@bhp.org.bw',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/Keba462/trainee_repoarts.git',
+    url='https://github.com/Keba462/trainee_reports.git',
     license='GPL license, see LICENSE',
     description='Trainee Reports',
     long_description=README,
